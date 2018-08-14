@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#navbar {
+    background-color: rgba(97, 97, 91, 0.81);
+    position: fixed;
+    width: 100%
+}
+
+.nav-link {
+    float: right;
+    font-family: "Quicksand", sans-serif;
+}
+
+.nav-item {
+    color: #FFF;
+    align-items: center;
+}
+
+
+.ph {
+    background: url(https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/175877.jpg) top fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ph-text {
+    font-family: 'sacramento', cursive;
+    font-size: 7vmax;
+    font-weight: 200;
+    position: absolute;
+    left: 46%;
+    top: 25%;
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+.bio {
+    font-family: 'Comfortaa', cursive;
+    margin: 5vmax;
+}
+
+.bio p {
+    padding: 1vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+#me-img {
+    background: radial-gradient(circle, transparent, white),
+    url(../imgs/Indie.jpg), center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 15vmax;
+    width: 25%;
+    margin: 4vw;
+}
+
+.skills {
+    height: 40vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill {
+    width: 15%;
+    height: 70%;
+    opacity: 0.53;
+}
+
+.skill:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.skill#html5 {
+    background-image: url(../imgs/if_html.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30%;
+}
+
+.skill#css3 {
+    background-image: url(../imgs/if_css.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30%;
+}
+
+.skill#bootstrap {
+    background-image: url(../imgs/if_bootstrap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30%;
+}
+
+.skill#javascript {
+    background-image: url(../imgs/if_javascript.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30%;
+}
+
+.pf-items {
+    height: 100vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-tile {
+    width: 25%;
+    height: 55%;
+    margin: 2vh;
+}
+
+.pf-item-img {
+    height: 75%;
+    background-color: pink;
+}
+
+.item-desc {
+    font-family: "Poiret One", cursive;
+    font-size: 1.5vmax;
+}
+
+button {
+    margin: 2vh 0;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    background-color: #4E4E4E;
+}
+
+button:hover {
+    background-color: #4E4E4E80;
+}
+
+#KIR {
+    background-image: url(https://kradan-island-resort.com/wp-content/uploads/2017/09/cropped-kradan-island-resort-1024x614.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#RQM {
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#RPS {
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-footer {
+    display: flex;
+    background-color: #4E4E4E;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-around;
+    bottom: 0;
+}
