@@ -28,7 +28,7 @@ a {
 
 
 .ph {
-    background: url(https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/175877.jpg) top fixed;
+    background: url(../imgs/unsplashbkg.jpg) top fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -38,8 +38,8 @@ a {
     font-size: 7vmax;
     font-weight: 200;
     position: absolute;
-    left: 46%;
-    top: 25%;
+    top: 45%;
+    left: 5%;
 }
 
 #welcome-section {
